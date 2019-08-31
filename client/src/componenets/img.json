@@ -1,8 +1,145 @@
 [
     {
       "id": 1,
-      "name":"pic1",
-      "image": "https://i.ibb.co/CHvGXpW/1.png"
+      "type": "logo",
+      "size":"n/a",
+      "name":"logo",
+      "image": "https://ibb.co/    "
+  
+    },
+
+    {
+      "id": 2,
+      "type": "logo",
+      "size":"n/a",
+      "name":"background",
+      "image": "https://ibb.co/    "
+  
+    },
+
+    {
+      "id": 3,
+      "type": "cake",
+      "size":"individual",
+      "name":"Mont Blanc",
+      "image": "https://ibb.co/    "
+  
+    },
+
+    {
+      "id": 4,
+      "type": "cake",
+      "size":"individual",
+      "name":"Lemon Tart",
+      "image": "https://ibb.co/    "
+  
+    },
+
+    {
+      "id": 5,
+      "type": "cake",
+      "size":"individual",
+      "name":"Virgo",
+      "image": "https://ibb.co/    "
+  
+    },
+
+    {
+      "id": 6,
+      "type": "cake",
+      "size":"individual",
+      "name":"Lemon Meringue",
+      "image": "https://ibb.co/    "
+  
+    },
+
+    {
+      "id": 7,
+      "type": "cake",
+      "size":"4 serving",
+      "name":"Lemon Meringue",
+      "image": "https://ibb.co/    "
+  
+    },
+
+    {
+      "id": 8,
+      "type": "cake",
+      "size":"6 serving",
+      "name":"Lemon Meringue",
+      "image": "https://ibb.co/    "
+  
+    },
+
+    {
+      "id": 9,
+      "type": "cake",
+      "size":"individual",
+      "name":"Mix Berries",
+      "image": "https://ibb.co/    "
+  
+    },
+
+    {
+      "id": 10,
+      "type": "cake",
+      "size":"4 serving",
+      "name":"Mix Berries",
+      "image": "https://ibb.co/    "
+  
+    },
+
+    {
+      "id": 11,
+      "type": "cake",
+      "size":"individual",
+      "name":"Black FOrest",
+      "image": "https://ibb.co/    "
+  
+    },
+
+    {
+      "id": 12,
+      "type": "cake",
+      "size":"4 serving",
+      "name":"Black Forest",
+      "image": "https://ibb.co/    "
+  
+    },
+
+    {
+      "id": 13,
+      "type": "cake",
+      "size":"individual",
+      "name":"Pistache",
+      "image": "https://ibb.co/    "
+  
+    },
+
+    {
+      "id": 14,
+      "type": "cake",
+      "size":" 4 serving",
+      "name":"Pistache",
+      "image": "https://ibb.co/    "
+  
+    },
+
+    {
+      "id": 15,
+      "type": "cake",
+      "size":"6 serving",
+      "name":"Pistache",
+      "image": "https://ibb.co/    "
+  
+    },
+
+    {
+      "id": 16,
+      "type": "cake",
+      "size":"individual",
+      "name":"Pistache",
+      "image": "https://ibb.co/    "
   
     },
 ]
