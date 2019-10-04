@@ -1,12 +1,12 @@
 import React from "react";
+import logo from "./logo.jpg";
+import "../stylingForComponents/style.css";
+//LOGO of Store
 
 function Header() {
     return (
         <div id="header">
-            <h1 className="fontStyle">I AM THE HEADER </h1>
-            <p className="fontStyle">BLAH BLAH BLAH 
-            </p>
-  
+            <img alt="logo" src={logo} className="img-fluid"/>
         </div>
     )
 }
