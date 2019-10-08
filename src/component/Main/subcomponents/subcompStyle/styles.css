@@ -1,12 +1,25 @@
+/* CAROUSEL OF PRODUCTS */
 #slides1, #slides2, #slides3{
-    width: 20em;
-    display:inline-block;
-    margin-top:5em;
+  width: 100% !important;
+  height: auto !important;
 }
 
 #slideBody{
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width:100%;
+   margin-top:3em;
+   width:100vw;
+   line-height: 0;  
+   -webkit-column-count: 3;
+   -webkit-column-gap:   0px;
+   -moz-column-count:    3;
+   -moz-column-gap:      0px;
+   column-count:         3;
+   column-gap:           0px;
+}
+
+/* SECTION TITLES */
+.sectionTitle{
+    padding:2em;
+    text-decoration-line: underline;
+    text-decoration-style: dotted;
+    color:gray;
 }
