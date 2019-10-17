@@ -18,8 +18,87 @@
 
 /* SECTION TITLES */
 .sectionTitle{
+    margin-top:8em;
     padding:2em;
     text-decoration-line: underline;
     text-decoration-style: dotted;
     color:gray;
 }
+
+#Menu{    
+    text-align: center !important;
+
+}
+
+/* #menuItemsWrapper{
+    width:25em;
+    height:25em;
+    border-radius:30px;
+    padding:2em;
+    display:inline-block;
+
+} */
+
+/********* Simple or original overlay *******/
+/* Main container */
+.overlay-image {
+    position: relative;
+    width:25em;
+    height:25em;
+    border-radius:30px;
+    padding:2em;
+    display:inline-block;
+    /* width: 100%; */
+   }
+   
+   .menuImg{
+    position: absolute;
+    width:25em;
+    height:25em;
+    border-radius:30px;
+    padding:2em;
+    display:inline-block;
+}
+
+   /* Original text overlay */
+   .overlay-image .text {
+    color: #fff;
+    font-size: 30px;
+    line-height: 1.5em;
+    text-shadow: 2px 2px 2px #000;
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 100%;
+    border-radius:30px;
+   }
+
+   /********* Overlay on hover *******/
+/* New overlay on hover */
+.overlay-image .hover {
+    position: absolute;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    border-radius:30px;
+    opacity: 0;
+    transition: .5s ease;
+   }
+   /* New overlay appearance on hover */
+   .overlay-image:hover .hover {
+    opacity: 1;
+   }
+
+   /********* Background and text only overlay on hover *******/
+.overlay-image .normal {
+    transition: .5s ease;
+   }
+   .overlay-image:hover .normal {
+    opacity: 0;
+   }
+   .overlay-image .hover {
+    background-color: rgba(0,0,0,0.5);
+
+   }
