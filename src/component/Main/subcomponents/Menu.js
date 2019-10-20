@@ -3,43 +3,26 @@ import cake from "./images/cakes/1.PNG";
 import pastry from "./images/pastries/2.PNG";
 import chocolate from "./images/chocolates/1.PNG";
 
-
-
 function Menu() {
     return (
         <div id="Menu">
-            <p className="sectionTitle">MENU </p>
-
+        <p className="sectionTitle">MENU </p>
             <div id="menuItemContainer">
-
-                <div className=" overlay-image _9u "><a href="LINK_URL">
-                    <img className=" image _9v menuImg " src={cake} alt="Alt text" />
-                    <div className=" normal _9x ">
-                        <div className=" text _2 ">Image + text ORIGINAL</div>
-                    </div>
-                    <div className=" hover _9w ">
-                        <div className=" text _2 ">Background + text HOVER</div>
-                    </div>
-                    </a>
+                <div className=" overlay-image  ">                
+                    <img className=" menuImg img-fluid " src={cake} alt="Alt text" />
+                    <p className="menuText">CAKE</p>
                 </div>
-
-
-                {/* <div className="menuItemsWrapper">
-                    <img className="menuImg" src={cake}></img>
-                    <div className="overlay">CAKE</div>
+                
+                <div className=" overlay-image  ">                
+                    <img className=" menuImg img-fluid " src={pastry} alt="Alt text" />
+                    <p className="menuText">PASTRY</p>
                 </div>
-
-                <div className="menuItemsWrapper">
-                    <img className="menuImg" src={pastry}></img>
-                    <a href="#"><div className="overlay"></div></a>
+          
+                <div className=" overlay-image  ">                
+                    <img className=" menuImg img-fluid " src={chocolate} alt="Alt text" />
+                    <p className="menuText">CHOCOLATE</p>
                 </div>
-
-                <div className="menuItemsWrapper">
-                    <img className="menuImg" src={chocolate}></img>
-                    <a href="#"><div className="overlay"></div></a>
-                </div>           */}
             </div>
-  
         </div>
     )
 }
