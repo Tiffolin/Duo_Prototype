@@ -3,8 +3,16 @@ import React from "react";
 function Pastries() {
     return (
         <div id="Pastries">
-            <h1 className="fontStyle">Pastries </h1>
+            <p className="sectionTitle">PASTRIES </p>
+            <div id="menuItemContainer">
+                <div id="sweetPastry">
+                    
+                </div>
+                <div id="savoryPastry">
 
+                </div>
+
+            </div>
   
         </div>
     )

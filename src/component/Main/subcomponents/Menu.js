@@ -22,6 +22,7 @@ function Menu() {
                     <img className=" menuImg img-fluid " src={chocolate} alt="Alt text" />
                     <p className="menuText">CHOCOLATE</p>
                 </div>
+
             </div>
         </div>
     )
