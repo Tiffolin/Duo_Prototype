@@ -23,9 +23,18 @@
     text-decoration-style: dotted;
     color:gray;
 }
-#Menu, #Pastries{    
-    text-align: center !important;
+.pages{
+    width:100%;
+    display:block;
+    margin-bottom:2%;
+    margin-top:2%;
 }
+#menu, #pastries, #cakes, #chocolates, #drinks, #poundCakes{    
+    text-align: center !important;
+    display:block;
+    width:100%;
+}
+
 /********* MENU ITEM BLOCK *******/
 /*wrap container*/
 .overlay-image {
@@ -64,3 +73,58 @@
 .overlay-image:hover .menuImg {
     opacity:2;
    }
+/********* PAGE DIVISION STYLE*******/
+.columnLeft{
+    float:left;
+    padding:2em;
+    width:50%;
+    margin-top:1%;
+}
+.columnRight{
+    float:left;
+    padding:2em;
+    width:50%;
+    margin-top:1%;
+    border-left:1px solid grey;
+    margin-bottom:7%;
+}
+
+
+/********* PASTRIES PAGE *******/
+#menuItemContainer{
+    width:100%;
+    display:block;
+    margin-bottom:10%;
+}
+dt{
+    font-weight:normal;
+    color:grey;
+    text-align: left !important;
+    padding-left:40%;
+}
+dd{
+    font-size:12px;
+    color:grey;
+    font-family: serif;
+}
+
+/********* CAKES PAGE *******/
+.cakeList{
+    padding-left:0;
+    text-align:left;
+    width:100%;
+}
+.cakeListImg{
+    width:50%;
+    margin:3em;
+    display:inline-block;
+}
+.cakeDescription{
+    width:50%;
+    display:inline-block;
+    position:relative;
+    top:0;
+}
+.sizing{
+    font-size:10px;
+}

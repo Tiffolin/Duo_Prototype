@@ -5,7 +5,7 @@ import chocolate from "./images/chocolates/1.PNG";
 
 function Menu() {
     return (
-        <div id="Menu">
+        <div id="menu">
         <p className="sectionTitle">MENU </p>
             <div id="menuItemContainer">
                 <div className=" overlay-image  ">                
