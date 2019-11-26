@@ -47,11 +47,12 @@
     opacity:0.8;
     padding:0px;
     margin-right:5%;
+    margin-top:5%;
 }
 /*Menu items (Cake, Pastry, Chocolates*/
 .menuImg{
     border-radius:30px;
-    opacity: 0.8;
+    opacity: 0.3;
     height:100%;
     width:100%;
 }
