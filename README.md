@@ -19,19 +19,16 @@ Merch Store
 
 --- 
 
-![](screenshot/1.png)      
+![](screenshot/1.PNG)      
 
 
-![](screenshot/2.png)      
+![](screenshot/2.PNG)      
 
 
-![](screenshot/3.png)      
+![](screenshot/3.PNG)      
 
 
-![](screenshot/4.png) 
-
-
-![](screenshot/5.png)   
+![](screenshot/4.PNG) 
 
 
 --- 
