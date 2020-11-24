@@ -1,14 +1,49 @@
-create homepage
-    landing page with main design
+# Merch Store Website
+### Overview
+ReactJS website made for a Merch Store
 
-create database
-     user authentication 
-        once logged in, can add/remove product information to/from database
-            product ID
-                product type
-                product image
-                produect information
+## Live Site
 
-create product page (drink, cake, pastry)
-    loop through database and display products in correct categories
-        sort by product type (drink, cake, pastry)
+
+*Pending custom domain name*
+## Technologies and Libraries
+
+* ReactJS
+* Webpack
+* Bootstrap
+* HTML5
+* CSS3
+
+### Demo
+Merch Store
+
+--- 
+
+![](screenshot/1.png)      
+
+
+![](screenshot/2.png)      
+
+
+![](screenshot/3.png)      
+
+
+![](screenshot/4.png) 
+
+
+![](screenshot/5.png)   
+
+
+--- 
+
+
+### Features
+
+
+---
+## Authors
+* **Tiffany Lin**         [Tiffolin](https://github.com/Tiffolin)
+
+
+## License
+MIT

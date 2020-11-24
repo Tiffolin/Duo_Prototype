@@ -1,0 +1,245 @@
+/********* CARASOUL OF PRODUCTS *******/
+#slides1, #slides2, #slides3{
+    width: 100% !important;
+    height: auto !important;
+  }
+  #slideBody{
+     margin-top:3em;
+     width:100vw;
+     line-height: 0;  
+     -webkit-column-count: 3;
+     -webkit-column-gap:   0px;
+     -moz-column-count:    3;
+     -moz-column-gap:      0px;
+     column-count:         3;
+     column-gap:           0px;
+  }
+  /********* PAGE SECTION TITLES *******/
+  .sectionTitle{
+      left: 50%;
+      margin-top:8em;
+      padding:2em;
+      text-decoration-line: underline;
+      text-decoration-style: dotted;
+      color:gray;
+      text-align:center;
+  }
+  .pages{
+      width:100%;
+      display:block;
+      margin-bottom:2%;
+      margin-top:2%;
+  }
+  #menu, #pastries, #cakes, #chocolates, #drinks, #poundCakes{    
+      text-align: center !important;
+      display:block;
+      width:100%;
+  }
+  
+  /********* PRODUCT ITEM BLOCK *******/
+  /*wrap container*/
+  .overlay-image {
+      position: relative;
+      width:20em;
+      height:18em;
+      border-radius:30px;
+      display:inline-block;
+      background-color:black;
+      opacity:0.8;
+      padding:0px;
+      margin-right:5%;
+      margin-top:5%;
+  }
+  /*Product items */
+  .menuImg{
+      border-radius:30px;
+      opacity: 0.3;
+      height:100%;
+      width:100%;
+  }
+  /*Text overlay */
+  .menuText {
+      color: #fff;
+      font-size: 30px;
+      line-height: 1.5em;
+      text-shadow: 2px 2px 2px #000;
+      text-align: center;
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      width: 100%;
+      border-radius:30px;
+     }
+  /*hover effect*/ko
+  .overlay-image:hover .menuImg {
+      opacity:2;
+     }
+  /********* PAGE DIVISION STYLE*******/
+  .columnLeft{
+      float:left;
+      width:50%;
+      margin-top:1%;
+      padding-right:10%;
+      text-align:justify;
+  }
+  .columnRight{
+      float:right;
+      width:50%;
+      margin-top:1%;
+      padding-right:10%;
+      border-left:1px solid grey;
+      margin-bottom:7%;
+      text-align:justify;
+  }
+  
+  
+  /*********  PAGE *******/
+  #menuItemContainer{
+      width:100%;
+      display:block;
+      margin-bottom:10%;
+  }
+  dt{
+      font-weight:normal;
+      color:grey;
+      padding-left:40%;
+  }
+  dd{
+      font-size:12px;
+      color:grey;
+      font-family: serif;
+  }
+  
+  /*********  PAGE *******/
+  .cakeList{
+      padding-left:0;
+      text-align:left;
+      width:100%;
+  }
+  .cakeListImg{
+      width:50%;
+      margin:3em;
+      display:inline-block;
+  }
+  .cakeDescription{
+      width:50%;
+      display:inline-block;
+      position:relative;
+      top:0;
+  }
+  .sizing{
+      font-size:10px;
+  }
+
+/* HEADER */
+#header{
+    position:relative;
+    top:-2em;
+    width:16em;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+#Land{
+    min-height: 200px;
+    margin-bottom: 40px;
+    clear: both;
+}
+/* NAVBAR */
+#Navbar{
+    display: block;
+    text-align:center;
+}
+.destination a {
+    color: grey;
+    padding-right:2em;
+    padding-left:2em
+    }
+.divider{
+    color:grey;
+}
+#bank{
+    height:100vh;
+    color:transparent;
+}
+#blank{
+    /* display:block;
+    height:50px;
+    color:white; */
+}
+/* FOOTER */
+#footer{
+    position:relative;
+    bottom:0;
+    margin-top:5%;
+    padding-top:2%;
+    height:100%;
+    background-color:#272822;
+    float:right;
+}
+#snsContainer{
+    /* text-align:right; */
+    display:inline-block;
+}
+#snstext{
+    color:white;
+}
+.sns{
+    font-size:60px;
+    padding:20px;
+    color:darkgrey;
+}
+.sns:hover{
+    color:white;
+    opacity:0.7;
+}
+.snsContact{
+    font-size:60px;
+    padding:20px;
+    color:darkgrey;
+    transition: transform 2s; /* Animation */
+}
+.snsContact:hover{
+    color:black;
+    opacity:0.7;
+    transform: scale(1.2);
+}
+
+#purchase{
+    margin:10%;
+}
+#purchase:hover{    
+    opacity:0.7;
+    transform: scale(1.2);
+}
+.purchastImg{
+    width:18vw;
+    padding:15px;
+    transition: transform 2s; /* Animation */
+}
+.purchastImg:hover{
+    opacity:0.7;
+    transform: scale(1.2);
+}
+
+#footerContent{
+    text-align:left;
+}
+.footerNotes{
+    color:white;
+}
+
+#developer{    
+    position:relative;
+    bottom:0;
+    background-color: #1E1F1C;
+    width:100vw;
+    text-align:center;
+    padding:0;
+    margin:0;
+    padding-top:1%;
+    color:white;
+    font-size:10px;
+    
+}
