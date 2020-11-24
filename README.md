@@ -3,7 +3,7 @@
 ReactJS website made for a Merch Store
 
 ## Live Site
-
+https://zzzmerch.herokuapp.com/
 
 *Pending custom domain name*
 ## Technologies and Libraries
